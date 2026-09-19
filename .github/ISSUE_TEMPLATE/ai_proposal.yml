@@ -1,0 +1,36 @@
+name: "🧠 مقترح ذكاء اصطناعي"
+description: "اقتراح استخدام AI في المجلة أو فهرس تدبر"
+title: "[AI]: "
+labels: ["AI", "research", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: "ما المشكلة التي سيحلها الذكاء الاصطناعي؟"
+    validations:
+      required: true
+  - type: textarea
+    id: without_ai
+    attributes:
+      label: "هل يمكن حل المشكلة دون AI؟"
+      description: "اشرح البديل الأبسط إن وجد."
+  - type: textarea
+    id: data
+    attributes:
+      label: "ما البيانات المطلوبة؟"
+  - type: textarea
+    id: risks
+    attributes:
+      label: "ما مخاطر الخطأ أو الهلوسة أو الخصوصية؟"
+    validations:
+      required: true
+  - type: textarea
+    id: human_review
+    attributes:
+      label: "أين ستكون المراجعة البشرية؟"
+    validations:
+      required: true
+  - type: textarea
+    id: evaluation
+    attributes:
+      label: "كيف سنقيس جودة الحل قبل اعتماده؟"
