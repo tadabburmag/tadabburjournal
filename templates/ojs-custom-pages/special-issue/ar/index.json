@@ -1,0 +1,35 @@
+{
+  "access": "public",
+  "fullWidth": true,
+  "showHeader": false,
+  "showFooter": false,
+  "showSidebar": false,
+  "cssSource": "both",
+  "title": "عدد خاص | مجلة تدبر",
+  "htmlLang": "ar",
+  "htmlDir": "rtl",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "صفحة تعريفية لعدد خاص من مجلة تدبر."
+    },
+    {
+      "property": "og:title",
+      "content": "عدد خاص | مجلة تدبر"
+    },
+    {
+      "property": "og:description",
+      "content": "صفحة تعريفية لعدد خاص من مجلة تدبر."
+    }
+  ],
+  "links": [],
+  "linkCss": [],
+  "externalCss": []
+}
