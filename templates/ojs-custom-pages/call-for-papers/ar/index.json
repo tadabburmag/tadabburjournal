@@ -1,0 +1,35 @@
+{
+  "access": "public",
+  "fullWidth": true,
+  "showHeader": false,
+  "showFooter": false,
+  "showSidebar": false,
+  "cssSource": "both",
+  "title": "دعوة للنشر | مجلة تدبر",
+  "htmlLang": "ar",
+  "htmlDir": "rtl",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "صفحة دعوة للنشر في مجلة تدبر."
+    },
+    {
+      "property": "og:title",
+      "content": "دعوة للنشر | مجلة تدبر"
+    },
+    {
+      "property": "og:description",
+      "content": "صفحة دعوة للنشر في مجلة تدبر."
+    }
+  ],
+  "links": [],
+  "linkCss": [],
+  "externalCss": []
+}
