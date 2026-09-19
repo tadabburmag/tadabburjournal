@@ -1,0 +1,37 @@
+name: "🔬 بحث ومقارنة"
+description: "دراسة خيار تقني أو معياري قبل اتخاذ قرار"
+title: "[Research]: "
+labels: ["documentation", "help wanted"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "ما السؤال الذي نريد الإجابة عنه؟"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "السياق"
+      description: "لماذا نحتاج هذه الدراسة الآن؟"
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: "الخيارات أو المشاريع المقارنة"
+  - type: textarea
+    id: criteria
+    attributes:
+      label: "معايير المقارنة"
+      placeholder: "الترخيص، الأمان، الصيانة، العربية، RTL، الأداء، التوثيق..."
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "الأدلة والمصادر"
+      description: "روابط رسمية أو مستودعات أو وثائق."
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: "النتيجة أو التوصية الأولية"
+      description: "يمكن تركها فارغة حتى تكتمل الدراسة."
