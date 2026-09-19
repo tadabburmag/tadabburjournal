@@ -1,0 +1,35 @@
+{
+  "access": "public",
+  "fullWidth": true,
+  "showHeader": false,
+  "showFooter": false,
+  "showSidebar": false,
+  "cssSource": "both",
+  "title": "Special Issue | Tadabbur Journal",
+  "htmlLang": "en",
+  "htmlDir": "ltr",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Landing page for a Tadabbur Journal special issue."
+    },
+    {
+      "property": "og:title",
+      "content": "Special Issue | Tadabbur Journal"
+    },
+    {
+      "property": "og:description",
+      "content": "Landing page for a Tadabbur Journal special issue."
+    }
+  ],
+  "links": [],
+  "linkCss": [],
+  "externalCss": []
+}
