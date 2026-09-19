@@ -1,0 +1,35 @@
+{
+  "access": "public",
+  "fullWidth": true,
+  "showHeader": false,
+  "showFooter": false,
+  "showSidebar": false,
+  "cssSource": "both",
+  "title": "Tadabbur Journal Statistics",
+  "htmlLang": "en",
+  "htmlDir": "ltr",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "Public statistics dashboard for Tadabbur Journal."
+    },
+    {
+      "property": "og:title",
+      "content": "Tadabbur Journal Statistics"
+    },
+    {
+      "property": "og:description",
+      "content": "Public statistics dashboard for Tadabbur Journal."
+    }
+  ],
+  "links": [],
+  "linkCss": [],
+  "externalCss": []
+}
