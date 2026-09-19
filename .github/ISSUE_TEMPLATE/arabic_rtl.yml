@@ -1,0 +1,37 @@
+name: "🌐 العربية وRTL"
+description: "مشكلة أو تحسين متعلق بالعربية أو اتجاه الواجهة"
+title: "[Arabic/RTL]: "
+labels: ["enhancement", "help wanted"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "نوع الملاحظة"
+      options:
+        - "RTL"
+        - "الخطوط والطباعة"
+        - "ترجمة"
+        - "صياغة عربية"
+        - "تخطيط واجهة"
+        - "بحث عربي"
+        - "أخرى"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "صف المشكلة أو التحسين"
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: "الصفحة أو الرابط"
+  - type: textarea
+    id: expected
+    attributes:
+      label: "ما النتيجة المتوقعة؟"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "صور أو أمثلة أو معايير مرجعية"
