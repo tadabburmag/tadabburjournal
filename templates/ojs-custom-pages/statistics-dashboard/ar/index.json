@@ -1,0 +1,35 @@
+{
+  "access": "public",
+  "fullWidth": true,
+  "showHeader": false,
+  "showFooter": false,
+  "showSidebar": false,
+  "cssSource": "both",
+  "title": "إحصاءات مجلة تدبر",
+  "htmlLang": "ar",
+  "htmlDir": "rtl",
+  "meta": [
+    {
+      "charset": "UTF-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1.0"
+    },
+    {
+      "name": "description",
+      "content": "لوحة إحصائية تعريفية لمجلة تدبر."
+    },
+    {
+      "property": "og:title",
+      "content": "إحصاءات مجلة تدبر"
+    },
+    {
+      "property": "og:description",
+      "content": "لوحة إحصائية تعريفية لمجلة تدبر."
+    }
+  ],
+  "links": [],
+  "linkCss": [],
+  "externalCss": []
+}
