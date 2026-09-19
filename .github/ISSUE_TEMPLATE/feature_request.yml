@@ -1,0 +1,32 @@
+name: "✨ اقتراح تطوير"
+description: "اقتراح ميزة أو تحسين"
+title: "[Feature]: "
+labels: ["feature", "needs-triage"]
+body:
+  - type: textarea
+    id: user
+    attributes:
+      label: "من المستخدم الذي سيستفيد؟"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: "ما المشكلة التي نحاول حلها؟"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: "ما النتيجة المطلوبة؟"
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "هل توجد حلول أو أدوات حالية؟"
+      description: "اذكر أي مشروع مفتوح المصدر أو حل أبسط تعرفه."
+  - type: textarea
+    id: notes
+    attributes:
+      label: "ملاحظات إضافية"
