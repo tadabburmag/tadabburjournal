@@ -1,0 +1,76 @@
+:root {
+  --tadabbur-navy: #24345f;
+  --tadabbur-gold: #c79a4a;
+  --tadabbur-bg: #ffffff;
+  --tadabbur-text: #1f2937;
+  --tadabbur-muted: #6b7280;
+  --tadabbur-radius: 16px;
+}
+
+.tadabbur-page {
+  background: var(--tadabbur-bg);
+  color: var(--tadabbur-text);
+  font-family: inherit;
+  line-height: 1.7;
+}
+
+.tadabbur-container {
+  width: min(1120px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.tadabbur-hero {
+  padding: 72px 0 56px;
+}
+
+.tadabbur-kicker {
+  color: var(--tadabbur-gold);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.tadabbur-hero h1 {
+  margin: 0 0 16px;
+  color: var(--tadabbur-navy);
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.15;
+}
+
+.tadabbur-lead {
+  max-width: 760px;
+  color: var(--tadabbur-muted);
+  font-size: 1.125rem;
+}
+
+.tadabbur-actions {
+  margin-top: 24px;
+}
+
+.tadabbur-button {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  background: var(--tadabbur-navy);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.tadabbur-button:hover,
+.tadabbur-button:focus-visible {
+  opacity: 0.92;
+}
+
+.tadabbur-section {
+  padding: 48px 0;
+}
+
+@media (max-width: 640px) {
+  .tadabbur-hero {
+    padding: 48px 0 36px;
+  }
+
+  .tadabbur-section {
+    padding: 36px 0;
+  }
+}
