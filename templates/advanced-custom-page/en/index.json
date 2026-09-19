@@ -1,0 +1,21 @@
+{
+  "access": "public",
+  "fullWidth": true,
+  "showHeader": false,
+  "showFooter": false,
+  "showSidebar": false,
+  "cssSource": "both",
+  "title": "Page Title | Tadabbur Journal",
+  "htmlLang": "en",
+  "htmlDir": "ltr",
+  "meta": [
+    { "charset": "UTF-8" },
+    { "name": "viewport", "content": "width=device-width, initial-scale=1.0" },
+    { "name": "description", "content": "Short page description." },
+    { "property": "og:title", "content": "Page Title | Tadabbur Journal" },
+    { "property": "og:description", "content": "Short page description." }
+  ],
+  "links": [],
+  "linkCss": [],
+  "externalCss": []
+}
