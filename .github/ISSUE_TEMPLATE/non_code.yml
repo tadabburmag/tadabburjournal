@@ -1,0 +1,36 @@
+name: "🤝 مساهمة غير برمجية"
+description: "بحث، ترجمة، توثيق، تصميم، اختبار، إدارة مشروع أو مساهمة أخرى"
+title: "[Non-code]: "
+labels: ["non-code", "community", "needs-triage"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: "نوع المساهمة"
+      options:
+        - "بحث ومقارنة"
+        - "توثيق"
+        - "ترجمة"
+        - "تصميم وتجربة مستخدم"
+        - "اختبار"
+        - "الوصول الرقمي"
+        - "إدارة مشروع"
+        - "مراجعة علمية"
+        - "مراجعة عربية وRTL"
+        - "أخرى"
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: "صف مساهمتك أو فكرتك"
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: "ما القيمة التي تضيفها؟"
+  - type: textarea
+    id: help
+    attributes:
+      label: "هل تحتاج مساعدة أو تنسيقًا من الفريق؟"
