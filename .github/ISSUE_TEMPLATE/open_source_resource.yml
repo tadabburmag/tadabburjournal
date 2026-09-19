@@ -1,0 +1,49 @@
+name: "🧰 أداة أو مشروع مفتوح المصدر"
+description: "اقتراح مستودع أو أداة للاستفادة منها"
+title: "[Open Source]: "
+labels: ["research", "needs-triage"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: "اسم المشروع"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: "الرابط"
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: "الترخيص"
+  - type: textarea
+    id: solves
+    attributes:
+      label: "ما المشكلة التي يحلها؟"
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: "كيف يمكن أن يفيد مجلة تدبر أو فهرس تدبر؟"
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: "المخاطر أو القيود"
+      description: "الصيانة، الأمان، العربية، RTL، الخصوصية، الأداء، الاعتماديات..."
+  - type: dropdown
+    id: recommendation
+    attributes:
+      label: "ما الاستخدام المقترح؟"
+      options:
+        - "دراسة فقط"
+        - "دمج"
+        - "تطوير إضافة"
+        - "المساهمة upstream"
+        - "Fork عند الضرورة"
+        - "غير متأكد"
